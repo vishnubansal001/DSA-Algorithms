@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 void insertionSort(int arr[],int n){
     int i,key,j;
     for(i=1;i<n;i++){

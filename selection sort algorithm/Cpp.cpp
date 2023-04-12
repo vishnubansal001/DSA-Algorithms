@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 void selectionSort(int arr[],int n){
     int i,j,min_idx;
     for(i=0;i<n-1;i++){

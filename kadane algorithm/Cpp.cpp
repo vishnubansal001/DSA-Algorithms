@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 long long maxSum(int arr[],int n){
     long long curr = 0;
     long long maxi = arr[0];

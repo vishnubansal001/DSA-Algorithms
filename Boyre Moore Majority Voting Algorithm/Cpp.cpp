@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 int majority(vector<int> vec,int n){
     int candi = -1, vote = 0;
     for(int i=0;i<n;i++){
